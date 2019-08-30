@@ -45,7 +45,7 @@ developers such as:
 
     ```
         $ objdump -d ./simple_foo > log
-        $ ./asm-analytics.sh log
+        $ ./asm-analitics.sh log
         Hi, this is the output of the analysis:
             You have 7 kind of instructions in this object file:
                 movq     : Executed 7 times
@@ -60,6 +60,7 @@ developers such as:
     ```
         $ git add asm-analytics.sh
         $ git commit -s -m <STUDENT-ID>-homework-01
+        git commit -m "<a01630171>-homework-01"
         $ git send-email -1
 
     ```
